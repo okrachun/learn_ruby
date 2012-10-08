@@ -1,11 +1,10 @@
-def k()
-	return (5.0/9.0)
-end
+KOEF = (5.0/9.0)
+DIFFERENCE = 32
 
 def ftoc(value)
-	return (value-32) * k
+	return (value-DIFFERENCE) * KOEF
 end	
 
 def ctof(value)
-	return (value / k) + 32
+	return (value / KOEF) + DIFFERENCE
 end
